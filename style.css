@@ -1,0 +1,101 @@
+/* common code start */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.container{
+	width: 90%;
+	height: 100%;
+	margin: 5px auto;
+	border: 1px solid tomato;
+}
+/* common code end */
+/* nav code start */
+nav{
+	background-color: #F8F9FA;
+	
+}
+/* nav code end */
+/* logo code start */
+.nav_inner{
+	clear: both;
+	overflow: hidden;
+}
+.nav_inner .logo{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.nav_inner .logo a{ 
+	color: #17A2B8;
+	font-size:40px;
+	font-weight: 800px;
+	padding: 10px 0px;
+	font-family: Nunito, sans-serif;
+	text-decoration: none;
+	display: inline-block;
+}
+.nav_inner .logo a .fa-child{
+	color: #92C2D2;
+	tansition: 5s all;
+}.nav_inner .logo a .fa-child:hover{
+	color: #242627;
+}
+/* logo code end */
+/* navinner code start */
+.nav_inner .navber{
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+.nav_inner .navber ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.nav_inner .navber ul  li{
+	display: inline-block;
+	list-style: none;
+}
+.nav_inner .navber ul  li a{
+	text-decoration: none;
+	font-weight: 800px;
+	font-family: Nunito, sans-serif;
+	font-size: 16px;
+	padding: 15px 20px;
+	color: rgb(19, 18, 18);
+	line-height: 3.2;
+}
+.nav_inner .navber ul  li a:hover{
+	color: #17A2B8;
+}
+
+/* navinner code end */
+/* logo code start */
+.nav_inner .joinin{
+	width: 15%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.nav_inner .joinin a{
+	display: inline-block;
+	color: #fff;
+	font-family: Nunito, sans-serif;
+	background-color: #17A2B8;
+	margin-top: 20px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	text-align: right;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400px;
+	transition: 0.5s all;
+
+}
+.nav_inner .joinin a:hover{
+	background-color: #138496;
+}
+/* logo code start */
